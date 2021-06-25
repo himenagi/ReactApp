@@ -1,10 +1,10 @@
-declare var require: any
+ï»¿declare var require: any
 var React = require('react');
 
 import { useState, useEffect } from 'react';
 import TextField from '@material-ui/core/TextField';
 
-// ƒeƒLƒXƒgƒ{ƒbƒNƒX‹¤’Ê•”•i
+// ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹å…±é€šéƒ¨å“
 export default (props: PropsObject) => {
     const [value, setValue] = useState(props.value || "");
 
